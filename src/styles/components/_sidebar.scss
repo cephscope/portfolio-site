@@ -1,0 +1,21 @@
+#sidebar {
+  display: flex;
+  width: auto;
+  // flex: auto;
+  max-width: 10rem;
+  margin-top: 1rem;
+}
+
+.sidebar-header {
+  border-bottom: solid;
+  border-right: solid;
+  margin-left: 2rem;
+  padding-left: 1rem;
+  &:hover .sidebar-header__title {
+    text-decoration: line-through;
+  }
+}
+.sidebar-header__title {
+  color: inherit;
+  text-decoration: none;
+}

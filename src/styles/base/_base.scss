@@ -1,0 +1,32 @@
+::-webkit-scrollbar{
+  display:none;
+}
+body {
+  background: black;
+  box-sizing: border-box;
+  color: $off-white;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+#app {
+  height: 98.5vh;
+  width: 99.2vw;
+  overflow: hidden;
+  display: flex;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}

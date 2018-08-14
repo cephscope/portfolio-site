@@ -1,0 +1,114 @@
+#content {
+  flex: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  width: 50vw;
+  overflow: scroll;
+}
+.content-header {
+  justify-content: space-evenly;
+  height: 5rem;
+  display: flex;
+    img {
+      width: 75px;
+      height: auto;
+      &:hover {
+        border-right: solid;
+        border-bottom: solid;
+      }
+    }
+  }
+.content-header__item {
+  position: relative;
+  color: $off-white;
+}
+.content-container {
+  margin-top: 1rem;
+  display: flex;
+  flex: auto;
+  overflow: scroll;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  @media (max-height: 45rem) and (min-width: 40rem) {
+    flex-direction: row;
+  }
+}
+.content-item {
+  display: flex;
+  flex: auto;
+  width: auto;
+  height: 210px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  &:hover .title {
+    visibility: visible;
+  }
+  &:hover .content-item__img {
+    opacity: .7;
+  }
+}
+#detail {
+  align-items: flex-start;
+  flex: auto;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  text-decoration: none;
+  color: $off-white;
+  a {
+    text-decoration: underline;
+  }
+  a:hover {
+    text-decoration: line-through;
+  }
+  @media (max-height: 45rem) and (min-width: 40rem) {
+    flex-direction: column;
+  }
+}
+#detail__img {
+  width: 100%;
+  height: auto;
+}
+.content-item__img {
+  width: 410px;
+  height: 100%;
+  display: flex;
+  flex: auto;
+  justify-content: center;
+}
+.title {
+  display: flex;
+  flex: auto;
+  align-self: center;
+  color: $off-white;
+  position: absolute;
+  visibility: hidden;
+}
+#spacejpg {
+  align-self: flex-start;
+}
+#calmcorner {
+  align-self: auto;
+}
+#ftb {
+  align-self: flex-end;
+}
+.text-container {
+  justify-content: left;
+  height: 75%;
+  display: block;
+  a {
+    text-decoration: underline;
+  }
+  a:hover {
+    text-decoration: line-through;
+  }
+}
+.text__item {
+  text-decoration: none;
+  color: $off-white;
+}

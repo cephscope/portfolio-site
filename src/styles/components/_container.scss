@@ -1,0 +1,14 @@
+.container {
+  margin: 0;
+  display: flex;
+  flex: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  justify-content: space-evenly;
+}
