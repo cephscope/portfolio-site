@@ -14,9 +14,13 @@
     img {
       width: 75px;
       height: auto;
+      padding-right: .5rem;
+      padding-bottom: .5rem;
+      border-bottom: solid black;
+      border-right: solid black;
       &:hover {
-        border-right: solid;
-        border-bottom: solid;
+        border-bottom: solid $off-white;
+        border-right: solid $off-white;
       }
     }
   }

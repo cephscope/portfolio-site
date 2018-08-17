@@ -10,10 +10,8 @@ import About from '../components/About';
 import Contact from '../components/Contact';
 import Nav from '../components/Nav';
 import CalmCornerPage from '../components/CalmCornerPage';
-import SpacejpgPage from '../components/SpacejpgPage';
 import ExpenseLogPage from '../components/ExpenseLogPage';
-
-// export const history = createHistory();
+import Droidify from '../components/DroidifyPage';
 
 const AppRouter = () => (
   <BrowserRouter>
@@ -30,7 +28,7 @@ const AppRouter = () => (
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/calm-corner" component={CalmCornerPage}/>
-          <Route path="/spacejpg" component={SpacejpgPage} />
+          <Route path="/droidify" component={Droidify} />
           <Route path="/expenselog" component={ExpenseLogPage} />
           <Route component={NotFoundPage} />
         </Switch>

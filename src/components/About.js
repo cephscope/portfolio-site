@@ -14,6 +14,14 @@ const About = () => {
       <br />
       <br />
       <br />
+      Development toolset includes but is not limited to:
+      <br />
+      <br />
+      Javascript, React.js, Redux, Node.js, HTML5, CSS, Sass, Flexbox, Git
+      <br />
+      <br />
+      <br />
+      <br />
       Education:
       <br />
       <br />

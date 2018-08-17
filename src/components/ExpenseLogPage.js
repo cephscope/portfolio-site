@@ -10,7 +10,7 @@ const ExpenseLogPage = () => {
           <h2 className="title" id="detail__title">give it a spin</h2>
         </a>
         <p id="detail">An application for tracking your expenses.</p>
-        <p id="detail">Expense data stored in a user-authenticated database</p>
+        <p id="detail">Expense data stored in a user-authenticated database.</p>
         <p id="detail">Quick search and filter functionality.</p>
         <a id="detail" href="https://github.com/cephscope/exepense-app" target="_blank">View project on GitHub</a>
       </div>
