@@ -12,6 +12,16 @@ const Welcome = () => {
     <br />
     <br />
     Take a look around.
+    <br />
+    <br />
+    <br />
+    <br />
+    Make yourself at home.
+    <br />
+    <br />
+    <br />
+    <br />
+    Do you prefer coffee or tea?
   </div>
   );
 }
