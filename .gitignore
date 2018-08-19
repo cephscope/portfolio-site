@@ -7,3 +7,5 @@ public/dist/
 .env.development
 src/playground/
 src/archive/
+src/sketch.js
+src/components/P5Wrapper.js
